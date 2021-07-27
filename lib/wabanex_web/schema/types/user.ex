@@ -6,7 +6,7 @@ defmodule WabanexWeb.Schema.Types.User do
   @desc "Logic user representation"
   object :user do
     field :id, non_null(:uuid4)
-    field :name, nnon_null(:string)
+    field :name, non_null(:string)
     field :email, non_null(:string)
   end
 end
